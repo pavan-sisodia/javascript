@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desital Clock For Local Time Zone</title>
+    <style>
+        body{
+            background-color: #bebebe;
+        }
+        #clock{
+            height: 100px;
+            width: 200px;
+            background-color: black;
+            border-radius: 5px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Local Time</h2>
+        <div id="clock"></div>
+    </div>
+</body>
+<script>
+    const clock = document.getElementById('clock')
+
+    setInterval (function(){
+      let date = new Date();
+   clock.innerHTML = date.toLocaleTimeString();
+  },1000)
+
+</script>
+</html>
