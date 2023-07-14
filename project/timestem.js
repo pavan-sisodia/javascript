@@ -1,4 +1,4 @@
-const endDate = "18 June 2024 12:00 PM"
+const endDate = "19 June 2024 12:01 AM"
 
 document.getElementById("end_Date").innerHTML = endDate
 
