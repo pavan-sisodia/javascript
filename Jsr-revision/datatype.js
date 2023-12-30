@@ -37,8 +37,19 @@ function myFunc(theObject) {
     moddle: "Accord",
     year: 1998,
   }
-  console.log(mycar); //mycar
+//   console.log(mycar); //mycar
   myFunc(mycar)
-  console.log(mycar.make); //Toyota
+//   console.log(mycar.make); //Toyota
 
+  //+++++++++++____________+++++++++
 
+  const factorial = function fac(n) {
+    return n < 2 ? 1 : n * fac(n - 1);
+  };
+  
+//   console.log(factorial(3)); // 6
+
+const square = function (number){
+   return number * number;
+}
+console.log(square(9)); // 81
