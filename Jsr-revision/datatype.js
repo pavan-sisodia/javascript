@@ -52,4 +52,5 @@ function myFunc(theObject) {
 const square = function (number){
    return number * number;
 }
-console.log(square(9)); // 81
+// console.log(square(9)); // 81
+
