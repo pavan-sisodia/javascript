@@ -1,18 +1,21 @@
-const myName = "Pavan"
 
-const bigName = "Raj"
+// +++++++++++ String methods ++++++++++++
+let city = "Agra";
+let myCity = new String("Etah");
+// console.log(myCity.big()); // <big>Etah</big>
+// console.log(myCity.blink()); // <blink>Etah</blink>
+// console.log(myCity.charAt()); //  E
+// console.log(myCity.concat(" ",city)); //  E
 
-// Losical operator ( ! ) 
+let user = "Pavan";
+let newUser = "Pavan Sisodia";
+// console.log(user.trim()); //trim always remove whitespace
+console.log(user.valueOf()); 
 
-const equalName = !(myName == bigName);
 
-// console.log(equalName);
 
-let vegitable = "Patato"
-if (vegitable === "Patato") {
-  alert = "Han mujhe aalu ki sabji bhut pasand hai"  
-}
-else {
-    alert("Lekin sabjion me or bhi chijen mujhe pasand hain")
-}
+
+
+
+
 
