@@ -9,4 +9,8 @@ let myDate = new Date();
 // console.log(myDate.toUTCString()); // Tue,09 Jan 2024 15:32:01 GMT
 // console.log(myDate.getTimezoneOffset()); // Tue,09 Jan 2024 15:32:01 GMT
 let myCreatedDate = new Date(2024,0,19);
-console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toLocaleString());
+let myDob= new Date(1996, 11, 20)
+let changingingDay = myDob.getDay()
+// console.log(myDob.toLocaleString());
+console.log(changingingDay.toLocaleString());
